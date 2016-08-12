@@ -1,3 +1,4 @@
+/* Colors */
 /* line 2, ../sass/style.scss */
 .site {
   display: flex;
@@ -70,4 +71,16 @@
 /* line 65, ../sass/style.scss */
 .main-content {
   flex: 1;
+}
+
+/* Main Footer */
+/* line 70, ../sass/style.scss */
+.main-footer {
+  background: #33B8FF;
+  color: #fff;
+  padding: 15px;
+}
+/* line 75, ../sass/style.scss */
+.main-footer .copyright {
+  font-weight: bold;
 }

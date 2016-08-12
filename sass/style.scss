@@ -65,3 +65,14 @@
 .main-content {
   flex: 1;
 }
+
+/* Main Footer */
+.main-footer {
+  background: $blue-brand;
+  color: $white;
+  padding: 15px;
+
+  .copyright {
+    font-weight: bold;
+  }
+}
