@@ -13,17 +13,17 @@
   border-radius: 0;
   padding: 15px;
 }
-/* line 15, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #fff;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 21, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 24, ../sass/style.scss */
+/* line 25, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -34,21 +34,40 @@
   align-items: center;
   justify-content: center;
 }
-/* line 34, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 36, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
 }
+/* line 45, ../sass/style.scss */
+.intro .intro-text .btn-intro {
+  border-radius: 0;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: bold;
+  margin: auto;
+  display: block;
+  width: 40%;
+  margin-top: 20px;
+  transition: all .5s ease;
+  padding: 15px;
+}
+/* line 57, ../sass/style.scss */
+.intro .intro-text .btn-intro:hover {
+  background: #fff;
+  color: #000;
+}
 
-/* line 46, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .main-content {
   flex: 1;
 }
