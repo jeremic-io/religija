@@ -6,6 +6,36 @@
 }
 
 /* line 7, ../sass/style.scss */
+.navbar {
+  margin-bottom: 0;
+}
+
+/* line 11, ../sass/style.scss */
+.intro {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/intro.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 21, ../sass/style.scss */
+.intro .intro-text {
+  width: 50%;
+}
+/* line 23, ../sass/style.scss */
+.intro .intro-text h1 {
+  color: #fff;
+}
+/* line 26, ../sass/style.scss */
+.intro .intro-text p {
+  color: #ccc;
+  text-align: center;
+}
+
+/* line 33, ../sass/style.scss */
 .main-content {
   flex: 1;
 }

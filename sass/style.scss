@@ -4,6 +4,32 @@
   flex-direction: column;
 }
 
+.navbar {
+  margin-bottom: 0;
+}
+
+.intro {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/ui/intro.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .intro-text {
+    width: 50%;
+    h1 {
+      color: #fff;
+    }
+    p {
+      color: #ccc;
+      text-align: center;
+    }
+  }
+}
+
 .main-content {
   flex: 1;
 }
