@@ -6,6 +6,18 @@
 
 .navbar {
   margin-bottom: 0;
+  background: #FF5733;
+  border: none;
+  border-radius: 0;
+  padding: 15px;
+
+  .navbar-brand {
+    color: #fff;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
 }
 
 .intro {
