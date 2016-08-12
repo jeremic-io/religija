@@ -64,7 +64,7 @@
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ostale teme <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Sotona, demoni i anđeli</a></li>
-                  <li><a href="#">Život posle smrti oba dela zajedno</a></li>
+                  <li><a href="#">Život posle smrti</a></li>
                   <li><a href="#">Šabat</a></li>
                   <li><a href="#">Antihrist</a></li>
                   <li><a href="#">Žig zveri</a></li>
