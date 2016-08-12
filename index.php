@@ -5,6 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Religija.net</title>
 
@@ -26,8 +27,8 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Početna</a></li>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#"><i class="fa fa-home"></i> Početna</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bog <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -69,7 +70,7 @@
                   <li><a href="#">Žig zveri</a></li>
                 </ul>
               </li>
-              <li><a href="#">Kontakt</a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i> Kontakt</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
