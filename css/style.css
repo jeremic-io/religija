@@ -1,29 +1,29 @@
-/* line 1, ../sass/style.scss */
+/* line 2, ../sass/style.scss */
 .site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 .navbar {
   margin-bottom: 0;
-  background: #FF5733;
+  background: #33B8FF;
   border: none;
   border-radius: 0;
   padding: 15px;
 }
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #fff;
 }
 
-/* line 19, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 23, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -34,21 +34,21 @@
   align-items: center;
   justify-content: center;
 }
-/* line 33, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 35, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
 }
-/* line 38, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .main-content {
   flex: 1;
 }
