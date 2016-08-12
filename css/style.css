@@ -1,0 +1,11 @@
+/* line 1, ../sass/style.scss */
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+/* line 7, ../sass/style.scss */
+.main-content {
+  flex: 1;
+}
