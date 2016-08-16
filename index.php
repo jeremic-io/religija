@@ -100,6 +100,9 @@
           <div class="col-lg-8">
 
           </div>
+          <div class="col-lg-4">
+            <h2>Sidebar</h2>
+          </div>
         </div>
       </div>
     </main>
