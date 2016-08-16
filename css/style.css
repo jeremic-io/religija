@@ -47,15 +47,18 @@
 /* line 40, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5rem;
+  margin-bottom: 10px;
 }
-/* line 43, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
   font-family: 'Tillana', cursive;
   font-size: 2rem;
 }
-/* line 50, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .intro .intro-text .btn-intro {
   border-radius: 0;
   background: transparent;
@@ -69,25 +72,25 @@
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 62, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
-/* line 70, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .main-content {
   flex: 1;
 }
 
 /* Main Footer */
-/* line 75, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 80, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
