@@ -28,9 +28,10 @@
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-family: 'Inconsolata', monospace;
+  font-weight: bold;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -41,17 +42,16 @@
   align-items: center;
   justify-content: center;
 }
-/* line 39, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 41, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Special Elite', cursive;
   font-size: 5rem;
   margin-bottom: 10px;
-  font-weight: bold;
 }
 /* line 48, ../sass/style.scss */
 .intro .intro-text p {

@@ -7,6 +7,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Tillana" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     <title>Religija.net</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -89,7 +90,7 @@
         <p>
           Ovde ćete pronaći različite teme iz Biblije, po nama najvažnije knjige na svetu.  Naš jedini vođa je Bog. Ne pripadamo ni jednoj denominaciji, a svaku institucionalizovanu religiju doživljavamo uslovno, ljudskom rukotvorinom. Nismo sekta, već jednostavno Hrišćani. Verujemo da se Božijom Crkvom smatraju oni koji prihvate Hrista kao svog Spasitelja i koji oslanjaju svoju veru isključivo na Svetom Pismu.  Misija ovog sajta je da se Istina približi ljudima i da na odgovarajući način slavimo našeg Gospoda i Spasitelja, Isusa Hrista. Nadamo se da će Vas sadržaj zainteresovati, sva Vaša pitanja i predloge možete nam poslati putem KONTAKTA.
         </p>
-        <a href="#" class="btn btn-intro">Pročitaj Više</a>
+        <a href="#" class="btn btn-intro">Pročitaj više</a>
       </div>
     </div>
 
