@@ -101,7 +101,13 @@
 
           </div>
           <div class="col-lg-3">
-            <h2>Sidebar</h2>
+            <div class="row">
+              <div class="col-lg-12">
+                <a href="http://www.centarzadetoksikaciju.com/">
+                  <img src="images/banners/centar_za_detosikaciju.png" class="img img-responsive" alt="Centar Za Detoksikaziju" />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
