@@ -94,3 +94,14 @@
 .main-footer .copyright {
   font-weight: bold;
 }
+
+/* Helper Classes */
+/* line 89, ../sass/style.scss */
+.hr-line {
+  width: 35%;
+  color: #fff;
+  display: block;
+  margin: auto;
+  height: 2px;
+  margin-bottom: 10px;
+}
