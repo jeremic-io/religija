@@ -17,14 +17,19 @@
 /* line 16, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #fff;
+  -ms-transform: rotate(-4deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-4deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-4deg);
 }
 
-/* line 21, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -35,20 +40,22 @@
   align-items: center;
   justify-content: center;
 }
-/* line 35, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 37, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
 }
-/* line 40, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
+  font-family: 'Tillana', cursive;
+  font-size: 2rem;
 }
-/* line 45, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .intro .intro-text .btn-intro {
   border-radius: 0;
   background: transparent;
@@ -62,25 +69,25 @@
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 57, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .main-content {
   flex: 1;
 }
 
 /* Main Footer */
-/* line 70, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 75, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }

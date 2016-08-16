@@ -15,6 +15,9 @@
 
   .navbar-brand {
     color: #fff;
+    -ms-transform: rotate(-4deg); /* IE 9 */
+    -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
+    transform: rotate(-4deg);
   }
 }
 
@@ -40,6 +43,8 @@
     p {
       color: #ccc;
       text-align: center;
+      font-family: 'Tillana', cursive;
+      font-size: 2rem;
     }
 
     .btn-intro {
