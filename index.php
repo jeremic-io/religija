@@ -85,7 +85,7 @@
       <div class="intro-text">
         <h1 class="text-center">Dobrodošli na Religija.net</h1>
         <p>
-          Ovde ćete pronaći različite teme iz Biblije, po nama najvažnije knjige na svetu.  Naš jedini vođa je Bog. Ne pripadamo ni jednoj denominaciji, a svaku institucionalizovanu religiju doživljavamo uslovno, ljudskom rukotvorinom. Nismo sekta, vec jednostavno Hrišćani. Verujemo da se Božijom Crkvom smatraju oni koji prihvate Hrista kao svog Spasitelja i koji oslanjaju svoju veru isključivo na Svetom Pismu.  Misija ovog sajta je da se Istina približi ljudima i da na odgovarajući način slavimo našeg Gospoda i Spasitelja, Isusa Hrista. Nadamo se da će Vas sadržaj zainteresovati, sva Vaša pitanja i predloge možete nam poslati putem KONTAKTA.
+          Ovde ćete pronaći različite teme iz Biblije, po nama najvažnije knjige na svetu.  Naš jedini vođa je Bog. Ne pripadamo ni jednoj denominaciji, a svaku institucionalizovanu religiju doživljavamo uslovno, ljudskom rukotvorinom. Nismo sekta, već jednostavno Hrišćani. Verujemo da se Božijom Crkvom smatraju oni koji prihvate Hrista kao svog Spasitelja i koji oslanjaju svoju veru isključivo na Svetom Pismu.  Misija ovog sajta je da se Istina približi ljudima i da na odgovarajući način slavimo našeg Gospoda i Spasitelja, Isusa Hrista. Nadamo se da će Vas sadržaj zainteresovati, sva Vaša pitanja i predloge možete nam poslati putem KONTAKTA.
         </p>
         <a href="#" class="btn btn-intro">Pročitaj Više</a>
       </div>
