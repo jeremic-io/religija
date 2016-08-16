@@ -29,10 +29,10 @@
 
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
               <li class="active"><a href="#"><i class="fa fa-home"></i> Početna</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bog <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BOG<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">O Bogu</a></li>
                   <li><a href="#">Komunikacija sa Bogom</a></li>
@@ -40,14 +40,14 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Isus Hrist <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ISUS HRIST <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Ko je Isus Hrist</a></li>
                   <li><a href="#">Isus Hrist - Ispunjena proročanstva</a></li>
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biblija <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BIBLIJA <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">O Bibliji</a></li>
                   <li><a href="#">Zašto Biblija</a></li>
@@ -56,14 +56,14 @@
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sloboda Izbora <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SLOBODA IZBORA <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Sloboda izbora</a></li>
                   <li><a href="#">Plan Spasenja</a></li>
                 </ul>
               </li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ostale teme <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">OSTALE TEME <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li><a href="#">Sotona, demoni i anđeli</a></li>
                   <li><a href="#">Život posle smrti</a></li>
@@ -72,7 +72,7 @@
                   <li><a href="#">Žig zveri</a></li>
                 </ul>
               </li>
-              <li><a href="#"><i class="fa fa-envelope"></i> Kontakt</a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i> KONTAKT</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
