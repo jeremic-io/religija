@@ -85,7 +85,7 @@
 
     <div class="intro">
       <div class="intro-text">
-        <h1 class="text-center">Dobrodošli na Religija.net</h1>
+        <h1 class="text-center">Dobro došli na Religija.net</h1>
         <hr class="hr-line">
         <p>
           Ovde ćete pronaći različite teme iz Biblije, po nama najvažnije knjige na svetu.  Naš jedini vođa je Bog. Ne pripadamo ni jednoj denominaciji, a svaku institucionalizovanu religiju doživljavamo uslovno, ljudskom rukotvorinom. Nismo sekta, već jednostavno Hrišćani. Verujemo da se Božijom Crkvom smatraju oni koji prihvate Hrista kao svog Spasitelja i koji oslanjaju svoju veru isključivo na Svetom Pismu.  Misija ovog sajta je da se Istina približi ljudima i da na odgovarajući način slavimo našeg Gospoda i Spasitelja, Isusa Hrista. Nadamo se da će Vas sadržaj zainteresovati, sva Vaša pitanja i predloge možete nam poslati putem KONTAKTA.
@@ -98,7 +98,48 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9">
-
+            <div class="articles">
+              <div class="article-container">
+                <article class="article">
+                  <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
+                  <div class="article-text">
+                    <h2 class="article-h2">O Bogu</h2>
+                    <p>
+                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
+                    </p>
+                    <a href="#" class="btn btn-primary">Pročitaj više</a>
+                  </div>
+                </article>
+              </div>
+              <div class="article-container">
+                <article class="article">
+                  <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
+                  <div class="article-text">
+                    <h2 class="article-h2">O Bogu</h2>
+                    <p>
+                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
+                    </p>
+                    <a href="#" class="btn btn-primary">Pročitaj više</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
+                  </div>
+                  <div class="col-lg-8">
+                    <h2 class="article-h2">O Bogu</h2>
+                    <p class="text-justify">
+                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
+                    </p>
+                    <a href="#" class="btn btn-primary">Pročitaj više</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-lg-3">
             <div class="row">

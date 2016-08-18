@@ -1,4 +1,15 @@
 @import 'partials/variables';
+
+/* Typography */
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+}
+/* Buttons */
+.btn {
+  border-radius: 0;
+}
+/* Site Global */
 .site {
   display: flex;
   min-height: 100vh;
@@ -73,8 +84,51 @@
   }
 }
 
+/* Main Content */
 .main-content {
   flex: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Articles */
+.articles {
+  overflow: hidden; /* just clearing floats */
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  .article-container {
+    box-sizing: border-box;
+    padding: 5px;
+    width: 50%; /* 2 items per row */
+    float: left;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    article {
+      box-shadow: 0 0 1px #333 inset;
+      .article-text {
+        padding: 5px;
+        .article-h2 {
+          font-family: 'Special Elite', cursive;
+          margin-bottom: 6px;
+        }
+        p {
+          text-align: justify;
+        }
+        a {
+          display: block;
+          margin: auto;
+        }
+      }
+    }
+  }
 }
 
 /* Main Footer */
@@ -87,6 +141,8 @@
     font-weight: bold;
   }
 }
+
+
 
 /* Helper Classes */
 .hr-line {
