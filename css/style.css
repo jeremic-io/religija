@@ -192,13 +192,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   min-height: 100vh;
 }
-/* line 171, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
+.sidebar section {
+  margin-bottom: 25px;
+}
+/* line 172, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
 /* Helper Classes */
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -208,16 +212,24 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* line 189, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Special Elite', cursive;
+  border-bottom: 4px solid #33B8FF;
+  padding-bottom: 6px;
+}
+
+/* line 202, ../sass/style.scss */
+.top-border {
+  border-top: 4px solid #33B8FF;
+  padding-top: 6px;
   border-bottom: 4px solid #33B8FF;
   padding-bottom: 6px;
 }

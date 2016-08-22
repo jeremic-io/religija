@@ -109,7 +109,7 @@
                     <p>
                       Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega?
                     </p>
-                    <a href="#" class="btn btn-main">Pročitaj više</a>
+                    <a href="article.php" class="btn btn-main">Pročitaj više</a>
                   </div>
                 </div>
               </a>
@@ -226,7 +226,7 @@
 
           <aside class="col-lg-3 col-md-3 col-sm-4 sidebar">
             <section class="books">
-              <h2 class="section-h2">Knjige</h2>
+              <h2 class="section-h2 top-border">Knjige</h2>
               <div class="book">
                 <a href="uploads/books/biblija.pdf" target="_blank">
                   <img src="images/banners/bible.jpg" class="img img-responsive full-width" alt="Biblija">
@@ -239,7 +239,7 @@
               </div>
             </section>
             <section class="our-friends">
-              <h2 class="section-h2">Naši prijatelji</h2>
+              <h2 class="section-h2 top-border">Naši prijatelji</h2>
               <div class="friend">
                 <a href="http://www.religija.me/">
                   <img src="images/banners/institut_za_religijska_istrazivanja.jpg" class="img img-responsive full-width" alt="Institut za religijska istrazivanja">
@@ -267,35 +267,6 @@
               </div>
             </section>
           </aside>
-
-          <!--
-          <div class="col-lg-3 sidebar">
-            <h2 class="text-center section-h2">Naši prijatelji</h2>
-            <div class="row">
-              <div class="col-lg-12 article-preview">
-                <a href="http://www.centarzadetoksikaciju.com/">
-                  <img src="images/banners/centar_za_detosikaciju.png" class="img img-responsive full-width" alt="Centar Za Detoksikaziju" />
-                </a>
-              </div>
-              <div class="col-lg-12 article-preview">
-                <a href="http://www.prirodnamedicina.org/">
-                  <img src="images/banners/institut_za_prirodnu_medicinu.png" class="img img-responsive full-width" alt="Institut za prirodnu medicinu" />
-                </a>
-              </div>
-              <div class="col-lg-12 article-preview">
-                <a href="http://originalnamedicina.org.rs/">
-                  <img src="images/banners/centar_za_originalnu_medicinu.jpg" class="img img-responsive full-width" alt="Institut za originalnu medicinu" />
-                </a>
-              </div>
-              <div class="col-lg-12 article-preview">
-                <a href="http://www.remnantofgod.org/">
-                  <img src="images/banners/presents_of_god.png" class="img img-responsive full-width" alt="Institut za prirodnu medicinu" />
-                </a>
-              </div>
-            </div>
-          </div>
-
-        -->
         </div>
       </div>
     </main>
