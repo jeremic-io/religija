@@ -5,13 +5,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Tillana" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
     <title>Religija.net</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 
   </head>
@@ -85,7 +85,7 @@
     </header>
 
     <div class="intro">
-      <div class="intro-text wow zoomIn" data-wow-duration="2s" data-wow-delay="1.5s">
+      <div class="intro-text">
         <h1 class="text-center">Dobro došli na Religija.net</h1>
         <hr class="hr-line">
         <p>
@@ -312,9 +312,5 @@
     <!-- Javascript -->
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
   </body>
 </html>
