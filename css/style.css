@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #33B8FF;
   border: none;
   border-radius: 0;
-  padding: 15px;
+  padding: 10px;
 }
 /* line 37, ../sass/style.scss */
 .navbar .navbar-brand {
