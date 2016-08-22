@@ -117,8 +117,9 @@ h1,h2,h3,h4,h5,h6 {
       transition: all .5s ease;
       padding:15px;
       &:hover {
-        background: #fff;
-        color: #000;
+        background: $blue-brand;
+        color: #fff;
+        border: 1px solid $blue-brand;
       }
     }
   }

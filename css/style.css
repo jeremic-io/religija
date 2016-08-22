@@ -138,12 +138,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 119, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
-  background: #fff;
-  color: #000;
+  background: #33B8FF;
+  color: #fff;
+  border: 1px solid #33B8FF;
 }
 
 /* Main Content */
-/* line 128, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .main-content {
   flex: 1;
   margin-top: 10px;
@@ -151,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Articles */
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .articles {
   overflow: hidden;
   /* just clearing floats */
@@ -163,7 +164,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 145, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
   padding: 0 5px;
@@ -175,32 +176,32 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin-bottom: 10px;
 }
-/* line 154, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .articles .article-container article {
   box-shadow: 0 0 1px #333 inset;
 }
-/* line 156, ../sass/style.scss */
+/* line 157, ../sass/style.scss */
 .articles .article-container article .article-text {
   padding: 5px;
 }
-/* line 158, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
   font-family: 'Special Elite', cursive;
   margin-bottom: 6px;
 }
-/* line 162, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .articles .article-container article .article-text p {
   text-align: justify;
   font-family: 'Special Elite', cursive;
 }
-/* line 166, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .articles .article-container article .article-text a {
   display: block;
   margin: auto;
   font-family: 'Special Elite', cursive;
 }
 
-/* line 176, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
   box-shadow: 0 0 2px #333;
@@ -209,34 +210,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main Footer */
-/* line 184, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 189, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
 
 /* Sidebar */
-/* line 195, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .sidebar {
   padding: 0;
   min-height: 100vh;
 }
-/* line 199, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .sidebar section {
   margin-bottom: 25px;
 }
-/* line 201, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
 /* Quotes */
-/* line 208, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 #quotes {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/quotes.jpg");
   background-size: cover;
@@ -249,12 +250,12 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .quotes-h2 {
   color: #fff;
 }
 
-/* line 224, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .ts-testimonial-slide {
   padding: 30px;
   text-align: center;
@@ -263,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .ts-testimonial-slide p {
   font-size: 2rem;
   line-height: 36px;
@@ -272,19 +273,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 35px;
 }
 
-/* line 238, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item {
   margin-bottom: 15px;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 243, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item .infor-client {
   display: inline-block;
   margin: 0 auto;
   width: auto;
 }
 
-/* line 247, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item .client-name {
   padding-left: 38px;
   font-size: 12.8px;
@@ -296,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
-/* line 257, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item .client-position {
   font-size: 12px;
   font-style: italic;
@@ -307,7 +308,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Helper Classes */
-/* line 269, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -317,13 +318,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* line 278, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 283, ../sass/style.scss */
+/* line 284, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Special Elite', cursive;
@@ -331,7 +332,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 6px;
 }
 
-/* line 290, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .top-border {
   border-top: 4px solid #33B8FF;
   padding-top: 6px;
