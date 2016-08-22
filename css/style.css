@@ -55,9 +55,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-family: 'Inconsolata', monospace;
   font-weight: bold;
+  padding-left: 0;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 52, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -68,25 +69,25 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 63, ../sass/style.scss */
+/* line 64, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
   font-family: 'Special Elite', cursive;
   font-size: 5rem;
   margin-bottom: 10px;
 }
-/* line 69, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
   font-family: 'Tillana', cursive;
   font-size: 2rem;
 }
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .intro .intro-text .btn-intro {
   border-radius: 0;
   background: transparent;
@@ -101,14 +102,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
 /* Main Content */
-/* line 98, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .main-content {
   flex: 1;
   margin-top: 10px;
@@ -116,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Articles */
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .articles {
   overflow: hidden;
   /* just clearing floats */
@@ -128,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 115, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
   padding: 1px;
@@ -140,30 +141,30 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin-bottom: 10px;
 }
-/* line 124, ../sass/style.scss */
+/* line 125, ../sass/style.scss */
 .articles .article-container article {
   box-shadow: 0 0 1px #333 inset;
 }
-/* line 126, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .articles .article-container article .article-text {
   padding: 5px;
 }
-/* line 128, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 6px;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .articles .article-container article .article-text p {
   text-align: justify;
 }
-/* line 135, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .articles .article-container article .article-text a {
   display: block;
   margin: auto;
 }
 
-/* line 144, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
   box-shadow: 0 0 2px #333;
@@ -172,30 +173,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main Footer */
-/* line 152, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 157, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
 
 /* Sidebar */
-/* line 163, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .sidebar {
   padding: 0;
   min-height: 100vh;
 }
-/* line 168, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
 /* Helper Classes */
-/* line 177, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -205,13 +206,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* line 186, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 191, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Roboto', sans-serif;
