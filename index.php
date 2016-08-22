@@ -353,7 +353,7 @@
           owl = $('.ts-testimonial-slide');
 
           owl.owlCarousel({
-              autoPlay: 4000,
+              autoPlay: 8000,
               slideSpeed: 2500,
               singleItem: true,
               stopOnHover: true,
