@@ -159,6 +159,18 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+/* Sidebar */
+.sidebar {
+  padding:0;
+  min-height: 100vh;
+
+  section {
+    .book, .friend {
+      margin-bottom: 5px;
+    }
+  }
+}
+
 
 
 /* Helper Classes */
@@ -174,4 +186,11 @@ h1,h2,h3,h4,h5,h6 {
 .full-width {
   width: 100%;
   height: auto;
+}
+
+.section-h2 {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 4px solid $blue-brand;
+  padding-bottom: 6px;
 }

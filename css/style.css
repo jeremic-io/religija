@@ -183,8 +183,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
+/* Sidebar */
+/* line 163, ../sass/style.scss */
+.sidebar {
+  padding: 0;
+  min-height: 100vh;
+}
+/* line 168, ../sass/style.scss */
+.sidebar section .book, .sidebar section .friend {
+  margin-bottom: 5px;
+}
+
 /* Helper Classes */
-/* line 165, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -194,8 +205,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* line 174, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
+}
+
+/* line 191, ../sass/style.scss */
+.section-h2 {
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 4px solid #33B8FF;
+  padding-bottom: 6px;
 }
