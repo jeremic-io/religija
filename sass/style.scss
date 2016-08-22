@@ -23,6 +23,13 @@ p {
     background: #33B8FF;
   }
 }
+
+.btn-white-color {
+  color: $white;
+  &:hover {
+    color: $white;
+  }
+}
 /* Site Global */
 .site {
   display: flex;
@@ -177,6 +184,65 @@ p {
       margin-bottom: 5px;
     }
   }
+}
+
+/* Quotes */
+#quotes{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/ui/quotes.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotes-h2 {
+  color: $white;
+}
+
+.ts-testimonial-slide{
+  padding: 30px;
+	text-align: center;
+	color: #fff;
+	width: 85%;
+	margin: 0 auto;
+}
+.ts-testimonial-slide p{
+	font-size: 24px;
+	line-height: 36px;
+	font-style: italic;
+	font-family: 'Tillana', cursive;
+	margin-bottom: 35px;
+}
+.ts-testimonial-slide .ts-testimonial-item {
+  margin-bottom: 15px;
+}
+
+.ts-testimonial-slide .ts-testimonial-item .infor-client {
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-name{
+	padding-left: 38px;
+	font-size: 12.8px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	display: block;
+	line-height: normal;
+	white-space: nowrap;
+}
+.ts-testimonial-slide .ts-testimonial-item  .client-position{
+	font-size: 12px;
+	font-style: italic;
+	line-height: normal;
+	padding-left: 38px;
+	display: block;
+	text-align: left;
 }
 
 

@@ -12,6 +12,8 @@
     <title>Religija.net</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
     <link rel="stylesheet" href="css/style.css">
 
   </head>
@@ -221,6 +223,114 @@
           </aside>
         </div>
       </div>
+      <!-- Testimonials -->
+      <section id="quotes">
+        <div class="container">
+          <h2 class="text-center quotes-h2">Citati</h2>
+          <div class="ts-testimonial-slide">
+            <div class="ts-testimonial-item">
+              <p>
+                "Ovde je istrajnost svetih, koji drže Božje zapovesti i veru Isusovu."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Otkrivenje 14:12L</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Jer Bog je toliko voleo svet da je dao svog jedinorođenog Sina, da niko ko veruje u njega ne bude uništen, nego da ima večni život."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Jovan 3:16</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Srećan je čovek koji istraje u kušnji, jer kad bude prokušan, primiće nagradu - život koji je Gospod obećao onima koji ga vole."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Jakov 1:12</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Ja sam put i istina i život. Niko ne dolazi k Ocu osim kroz mene."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Jovan 14:6</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Evo, dolazim brzo i donosim platu, da platim svakome prema njegovom delu."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Otkrivenje 22:12</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Ko ne voli, nije upoznao Boga, jer Bog je ljubav. "
+              </p>
+              <div class="infor-client">
+                <span class="client-name">John M./Hobe Sound, FL</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Ljubav je u ovome: nismo mi voleli Boga, nego je on voleo nas i poslao svog Sina kao žrtvu pomirenja za naše grehe."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">John M./Hobe Sound, FL</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "A Bog nam je pokazao svoju ljubav tako što je Hristos, dok smo još bili grešnici, umro za nas. "
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Rimljanima 5:8</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Ako me volite, držite moje zapovesti."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Jovan 14:15</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "A pravednik će od vere svoje živ biti."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Avakum 2:4</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "A moj Bog će podmiriti sve vaše potrebe u skladu sa svojim  bogatstvima u slavi Hrista Isusa.  "
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Filipljanima 4:19</span>
+              </div>
+            </div>
+            <div class="ts-testimonial-item">
+              <p>
+                "Nemojte da mislite da sam došao da ukinem Zakon ili Proroke. Nisam došao da ih ukinem, nego da ih ispunim. Istinu vam kažem: dok nebo i zemlja ne nestanu, neće nestati nijedno slovce ni crtica iz Zakona dok se sve ne ispuni."
+              </p>
+              <div class="infor-client">
+                <span class="client-name">Matej 5:17,18</span>
+              </div>
+            </div>
+          </div>
+          <div class="customNavigation text-center">
+            <a class="btn btn-main btn-white-color prev">Prethodni</a>
+            <a class="btn btn-main btn-white-color next">Sledeći</a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Main Footer -->
@@ -235,5 +345,31 @@
     <!-- Javascript -->
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(function() {
+        if ($(".ts-testimonial-slide").length > 0) {
+
+          owl = $('.ts-testimonial-slide');
+
+          owl.owlCarousel({
+              autoPlay: 4000,
+              slideSpeed: 2500,
+              singleItem: true,
+              stopOnHover: true,
+              transitionStyle : "backSlide"
+          });
+
+          // Custom Navigation Events
+          $(".next").click(function(){
+            owl.trigger('owl.next');
+          });
+          $(".prev").click(function(){
+            owl.trigger('owl.prev');
+          });
+        };
+
+      })
+    </script>
   </body>
 </html>

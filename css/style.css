@@ -29,15 +29,24 @@ p {
   background: #33B8FF;
 }
 
-/* Site Global */
 /* line 27, ../sass/style.scss */
+.btn-white-color {
+  color: #fff;
+}
+/* line 29, ../sass/style.scss */
+.btn-white-color:hover {
+  color: #fff;
+}
+
+/* Site Global */
+/* line 34, ../sass/style.scss */
 .site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-/* line 33, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 .navbar {
   margin-bottom: 0;
   background: #33B8FF;
@@ -45,7 +54,7 @@ p {
   border-radius: 0;
   padding: 10px;
 }
-/* line 41, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #fff;
   -ms-transform: rotate(-4deg);
@@ -55,7 +64,7 @@ p {
   transform: rotate(-4deg);
 }
 
-/* line 49, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-family: 'Special Elite', cursive;
@@ -63,7 +72,7 @@ p {
   padding-left: 0;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -74,25 +83,25 @@ p {
   align-items: center;
   justify-content: center;
 }
-/* line 66, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 68, ../sass/style.scss */
+/* line 75, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
   font-family: 'Alex Brush', cursive;
   font-size: 6rem;
   margin-bottom: 10px;
 }
-/* line 74, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
   font-family: 'Tillana', cursive;
   font-size: 2rem;
 }
-/* line 81, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .intro .intro-text .btn-intro {
   border-radius: 0;
   background: transparent;
@@ -107,14 +116,14 @@ p {
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 94, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
 /* Main Content */
-/* line 103, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .main-content {
   flex: 1;
   margin-top: 10px;
@@ -122,7 +131,7 @@ p {
 }
 
 /* Articles */
-/* line 110, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .articles {
   overflow: hidden;
   /* just clearing floats */
@@ -134,7 +143,7 @@ p {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 120, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
   padding: 0 5px;
@@ -146,32 +155,32 @@ p {
   display: flex;
   margin-bottom: 10px;
 }
-/* line 129, ../sass/style.scss */
+/* line 136, ../sass/style.scss */
 .articles .article-container article {
   box-shadow: 0 0 1px #333 inset;
 }
-/* line 131, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .articles .article-container article .article-text {
   padding: 5px;
 }
-/* line 133, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
   font-family: 'Special Elite', cursive;
   margin-bottom: 6px;
 }
-/* line 137, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .articles .article-container article .article-text p {
   text-align: justify;
   font-family: 'Special Elite', cursive;
 }
-/* line 141, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .articles .article-container article .article-text a {
   display: block;
   margin: auto;
   font-family: 'Special Elite', cursive;
 }
 
-/* line 151, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
   box-shadow: 0 0 2px #333;
@@ -180,34 +189,105 @@ p {
 }
 
 /* Main Footer */
-/* line 159, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 164, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
 
 /* Sidebar */
-/* line 170, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .sidebar {
   padding: 0;
   min-height: 100vh;
 }
-/* line 174, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .sidebar section {
   margin-bottom: 25px;
 }
-/* line 176, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
+/* Quotes */
+/* line 190, ../sass/style.scss */
+#quotes {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/quotes.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 202, ../sass/style.scss */
+.quotes-h2 {
+  color: #fff;
+}
+
+/* line 206, ../sass/style.scss */
+.ts-testimonial-slide {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* line 213, ../sass/style.scss */
+.ts-testimonial-slide p {
+  font-size: 24px;
+  line-height: 36px;
+  font-style: italic;
+  font-family: 'Tillana', cursive;
+  margin-bottom: 35px;
+}
+
+/* line 220, ../sass/style.scss */
+.ts-testimonial-slide .ts-testimonial-item {
+  margin-bottom: 15px;
+}
+
+/* line 224, ../sass/style.scss */
+.ts-testimonial-slide .ts-testimonial-item .infor-client {
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+}
+
+/* line 229, ../sass/style.scss */
+.ts-testimonial-slide .ts-testimonial-item .client-name {
+  padding-left: 38px;
+  font-size: 12.8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  display: block;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+/* line 239, ../sass/style.scss */
+.ts-testimonial-slide .ts-testimonial-item .client-position {
+  font-size: 12px;
+  font-style: italic;
+  line-height: normal;
+  padding-left: 38px;
+  display: block;
+  text-align: left;
+}
+
 /* Helper Classes */
-/* line 185, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -217,13 +297,13 @@ p {
   margin-bottom: 10px;
 }
 
-/* line 194, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 199, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Special Elite', cursive;
@@ -231,7 +311,7 @@ p {
   padding-bottom: 6px;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 272, ../sass/style.scss */
 .top-border {
   border-top: 4px solid #33B8FF;
   padding-top: 6px;
