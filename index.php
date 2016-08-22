@@ -107,19 +107,19 @@
                   <div class="article-text">
                     <h2 class="article-h2">O Bogu</h2>
                     <p>
-                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
+                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega?
                     </p>
                     <a href="#" class="btn btn-main">Pročitaj više</a>
                   </div>
-                </article>
-              </div>
+                </div>
+              </a>
               <div class="article-container">
                 <article class="article">
                   <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
                   <div class="article-text">
-                    <h2 class="article-h2">O Bogu</h2>
+                    <h2 class="article-h2">Komunikacija sa Bogom</h2>
                     <p>
-                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
+                      U Bibliji Bog otkriva način na koji možemo komunicirati sa njim. To je od ključne važnosti za naš religijski život. Na taj način naše iskustvo postaje živo, budući neprekidno napajano sa izvora života i pozitivne akcije na sadašnju i večnu dobrobit.
                     </p>
                     <a href="#" class="btn btn-main">Pročitaj više</a>
                   </div>
@@ -230,6 +230,11 @@
               <div class="book">
                 <a href="uploads/books/biblija.pdf" target="_blank">
                   <img src="images/banners/bible.jpg" class="img img-responsive full-width" alt="Biblija">
+                </a>
+              </div>
+              <div class="book">
+                <a href="uploads/books/Velika_borba.pdf" target="_blank">
+                  <img src="images/banners/velika_borba_izmedju_hrista_i_sotone.jpg" class="img img-responsive full-width" alt="Velika borba izmedju Hrista i sotone">
                 </a>
               </div>
             </section>
