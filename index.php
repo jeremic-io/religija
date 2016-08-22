@@ -85,7 +85,7 @@
     </header>
 
     <div class="intro">
-      <div class="intro-text wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
+      <div class="intro-text wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
         <h1 class="text-center">Dobro došli na Religija.net</h1>
         <hr class="hr-line">
         <p>
