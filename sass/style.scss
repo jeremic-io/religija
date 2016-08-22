@@ -1,13 +1,13 @@
 @import 'partials/variables';
 
 /* Typography */
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
 h1,h2,h3,h4,h5,h6 {
   padding: 0;
   margin: 0;
-}
 
-p {
-  font-family: 'Droid Sans', sans-serif;
 }
 /* Buttons */
 .btn {
@@ -43,21 +43,39 @@ p {
 
   border: none;
   border-radius: 0;
-  padding: 10px;
+  padding: 15px;
 
   .navbar-brand {
     color: #fff;
-    -ms-transform: rotate(-4deg); /* IE 9 */
-    -webkit-transform: rotate(-4deg); /* Chrome, Safari, Opera */
-    transform: rotate(-4deg);
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+    padding: 0;
+    margin-right: 10px;
+    position: relative;
+    top: -14px;
   }
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a{
   color: #fff;
-  font-family: 'Special Elite', cursive;
   font-weight: bold;
-  padding-left: 0;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  border-radius: 0;
+  margin: 0;
+  left: -1px;
+  padding: 0;
+
+  a {
+    padding: 15px;
+    margin: 0;
+    &:hover {
+      background: $blue-brand;
+      color: $white;
+    }
+  }
 }
 
 .intro {

@@ -1,14 +1,14 @@
 /* Colors */
 /* Typography */
 /* line 4, ../sass/style.scss */
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
+/* line 7, ../sass/style.scss */
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
-}
-
-/* line 9, ../sass/style.scss */
-p {
-  font-family: 'Droid Sans', sans-serif;
 }
 
 /* Buttons */
@@ -52,27 +52,47 @@ p {
   background: #33B8FF;
   border: none;
   border-radius: 0;
-  padding: 10px;
+  padding: 15px;
 }
 /* line 48, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #fff;
-  -ms-transform: rotate(-4deg);
+  -ms-transform: rotate(-7deg);
   /* IE 9 */
-  -webkit-transform: rotate(-4deg);
+  -webkit-transform: rotate(-7deg);
   /* Chrome, Safari, Opera */
-  transform: rotate(-4deg);
+  transform: rotate(-7deg);
+  padding: 0;
+  margin-right: 10px;
+  position: relative;
+  top: -14px;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-family: 'Special Elite', cursive;
   font-weight: bold;
-  padding-left: 0;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 0;
+  margin: 0;
+  left: -1px;
+  padding: 0;
+}
+/* line 71, ../sass/style.scss */
+.navbar-nav > li > .dropdown-menu a {
+  padding: 15px;
+  margin: 0;
+}
+/* line 74, ../sass/style.scss */
+.navbar-nav > li > .dropdown-menu a:hover {
+  background: #33B8FF;
+  color: #fff;
+}
+
+/* line 81, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -83,25 +103,25 @@ p {
   align-items: center;
   justify-content: center;
 }
-/* line 73, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 75, ../sass/style.scss */
+/* line 93, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
   font-family: 'Alex Brush', cursive;
   font-size: 6rem;
   margin-bottom: 10px;
 }
-/* line 81, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
   font-family: 'Tillana', cursive;
   font-size: 2rem;
 }
-/* line 88, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .intro .intro-text .btn-intro {
   border-radius: 0;
   background: transparent;
@@ -116,14 +136,14 @@ p {
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 101, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
 /* Main Content */
-/* line 110, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .main-content {
   flex: 1;
   margin-top: 10px;
@@ -131,7 +151,7 @@ p {
 }
 
 /* Articles */
-/* line 117, ../sass/style.scss */
+/* line 135, ../sass/style.scss */
 .articles {
   overflow: hidden;
   /* just clearing floats */
@@ -143,7 +163,7 @@ p {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 127, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
   padding: 0 5px;
@@ -155,32 +175,32 @@ p {
   display: flex;
   margin-bottom: 10px;
 }
-/* line 136, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .articles .article-container article {
   box-shadow: 0 0 1px #333 inset;
 }
-/* line 138, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .articles .article-container article .article-text {
   padding: 5px;
 }
-/* line 140, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
   font-family: 'Special Elite', cursive;
   margin-bottom: 6px;
 }
-/* line 144, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .articles .article-container article .article-text p {
   text-align: justify;
   font-family: 'Special Elite', cursive;
 }
-/* line 148, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .articles .article-container article .article-text a {
   display: block;
   margin: auto;
   font-family: 'Special Elite', cursive;
 }
 
-/* line 158, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
   box-shadow: 0 0 2px #333;
@@ -189,34 +209,34 @@ p {
 }
 
 /* Main Footer */
-/* line 166, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 171, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
 
 /* Sidebar */
-/* line 177, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .sidebar {
   padding: 0;
   min-height: 100vh;
 }
-/* line 181, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .sidebar section {
   margin-bottom: 25px;
 }
-/* line 183, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
 /* Quotes */
-/* line 190, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 #quotes {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/ui/quotes.jpg");
   background-size: cover;
@@ -229,12 +249,12 @@ p {
   justify-content: center;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .quotes-h2 {
   color: #fff;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 224, ../sass/style.scss */
 .ts-testimonial-slide {
   padding: 30px;
   text-align: center;
@@ -243,7 +263,7 @@ p {
   margin: 0 auto;
 }
 
-/* line 213, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .ts-testimonial-slide p {
   font-size: 2rem;
   line-height: 36px;
@@ -252,19 +272,19 @@ p {
   margin-bottom: 35px;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item {
   margin-bottom: 15px;
 }
 
-/* line 224, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item .infor-client {
   display: inline-block;
   margin: 0 auto;
   width: auto;
 }
 
-/* line 229, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item .client-name {
   padding-left: 38px;
   font-size: 12.8px;
@@ -276,7 +296,7 @@ p {
   white-space: nowrap;
 }
 
-/* line 239, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .ts-testimonial-slide .ts-testimonial-item .client-position {
   font-size: 12px;
   font-style: italic;
@@ -287,7 +307,7 @@ p {
 }
 
 /* Helper Classes */
-/* line 251, ../sass/style.scss */
+/* line 269, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -297,13 +317,13 @@ p {
   margin-bottom: 10px;
 }
 
-/* line 260, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 265, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Special Elite', cursive;
@@ -311,7 +331,7 @@ p {
   padding-bottom: 6px;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .top-border {
   border-top: 4px solid #33B8FF;
   padding-top: 6px;
