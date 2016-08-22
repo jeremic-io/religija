@@ -191,6 +191,11 @@
                   <img src="images/banners/velika_borba_izmedju_hrista_i_sotone.jpg" class="img img-responsive full-width" alt="Velika borba izmedju Hrista i sotone">
                 </a>
               </div>
+              <div class="book">
+                <a href="uploads/books/Apsolutno_Zdravlje.pdf" target="_blank">
+                  <img src="images/banners/apsolutno_zdravlje.png" class="img img-responsive full-width" alt="Apsolutno zdravlje">
+                </a>
+              </div>
             </section>
             <section class="our-friends">
               <h2 class="section-h2 top-border">Prijatelji</h2>
