@@ -224,9 +224,8 @@
         </div>
       </div>
       <!-- Testimonials -->
-      <section id="quotes">
+      <div id="quotes">
         <div class="container">
-          <h2 class="text-center quotes-h2">Citati</h2>
           <div class="ts-testimonial-slide">
             <div class="ts-testimonial-item">
               <p>
@@ -330,7 +329,7 @@
             <a class="btn btn-main btn-white-color next">Sledeći</a>
           </div>
         </div>
-      </section>
+      </div>
     </main>
 
     <!-- Main Footer -->
