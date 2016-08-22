@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Tillana" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
