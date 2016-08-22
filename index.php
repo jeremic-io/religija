@@ -237,7 +237,7 @@
                 "Ovde je istrajnost svetih, koji drže Božje zapovesti i veru Isusovu."
               </p>
               <div class="infor-client">
-                <span class="client-name">Otkrivenje 14:12L</span>
+                <span class="client-name">Otkrivenje 14:12</span>
               </div>
             </div>
             <div class="ts-testimonial-item">
@@ -277,7 +277,7 @@
                 "Ko ne voli, nije upoznao Boga, jer Bog je ljubav. "
               </p>
               <div class="infor-client">
-                <span class="client-name">John M./Hobe Sound, FL</span>
+                <span class="client-name">Jovanova 4:8</span>
               </div>
             </div>
             <div class="ts-testimonial-item">
@@ -285,7 +285,7 @@
                 "Ljubav je u ovome: nismo mi voleli Boga, nego je on voleo nas i poslao svog Sina kao žrtvu pomirenja za naše grehe."
               </p>
               <div class="infor-client">
-                <span class="client-name">John M./Hobe Sound, FL</span>
+                <span class="client-name">Jovanova 4:10</span>
               </div>
             </div>
             <div class="ts-testimonial-item">
