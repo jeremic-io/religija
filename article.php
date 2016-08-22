@@ -98,6 +98,12 @@
             <p>
               Posledice shvatanja da ima Boga - Ako Boga ima, ima konačnog autoriteta – postoji zakon ljudskog ponašanja. Ako ima Stvoritelja, sve je delo plana i ima smisla. Ako ima Onoga koji je večan, onda ima i večnosti – sve je prolazno.
             </p>
+            <p>
+              Danas u svetu postoje različite ideje o Bogu ili o Njegovoj (ne)egzistenciji, od ateizma (čovek je najviše biće, najveći autoritet, moralni zakoni su proizvod ljudskog shvatanja i kulture a ne božanske volje; nema apsolutnog vrhunskog autoriteta, društvo je konačni autoritet), deizma (Bog postoji ali nema kontakta sa čovekom, On je stvorio svet usadivši moralne zakone u ljude i prepustio nas samima sebi), paganizma ili politeizma (svetom upravlja mnoštvo bogova koji gospodare prirodnim pojavama, a čovek treba da ih poštuje da bi mu bili naklonjeni i činili dobro – što inače vrlo asocira na kult svečeva u tradicionalnom hrišćanstvu), postmodernističke filozofije (ideje čovečanstva su povezane kao mreža i u međusobnoj su korelaciji; svaka ideja ili verovanje koja je postala sastavni deo istorije i ljudske misli dostojna je prihvatanja; nema nikog iznad ostalih; svi putevi vode do Boga), klasične nauke (pošto se ne može empirijski ili naučno dokazati ima li ili nema Boga, nauka ga nije otkrila, prema tome, nema Boga; mi smo deo beskrajnog razvojnog lanca) i slično.
+            </p>
+            <p>
+              Verovati u Boga je samo ljudska potreba, ali ne i stvarnost. Biblija ne sadrži racionalne postavke, već mitove starih naroda. Bog je samo plod ljudske religiozne mašte. On je zamisao slabića koji trebaju neku natprirodnu pomoć. Stoga u racionalnom razmišljanju i odlučivanju Bog nema mesta. Ovo je stav tzv. visoke kritike i skepticizma.
+            </p>
           </div>
 
           <aside class="col-lg-3 col-md-3 col-sm-4 sidebar">

@@ -98,7 +98,7 @@
     <main class="main-content">
       <div class="container">
         <div class="row">
-          <div class="col-lg-9 col-md-9 col-sm-8">
+          <div class="col-lg-9 col-md-10 col-sm-8">
             <h2 class="section-h2">Najnoviji članci</h2>
             <div class="articles">
               <div class="article-container">
@@ -224,7 +224,7 @@
             </div>
           </div>
 
-          <aside class="col-lg-3 col-md-3 col-sm-4 sidebar">
+          <aside class="col-lg-2 col-md-3 col-sm-4 sidebar">
             <section class="books">
               <h2 class="section-h2 top-border">Knjige</h2>
               <div class="book">
@@ -239,7 +239,7 @@
               </div>
             </section>
             <section class="our-friends">
-              <h2 class="section-h2 top-border">Naši prijatelji</h2>
+              <h2 class="section-h2 top-border">Prijatelji</h2>
               <div class="friend">
                 <a href="http://www.religija.me/">
                   <img src="images/banners/institut_za_religijska_istrazivanja.jpg" class="img img-responsive full-width" alt="Institut za religijska istrazivanja">

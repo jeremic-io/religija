@@ -6,33 +6,38 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-/* Buttons */
 /* line 9, ../sass/style.scss */
+p {
+  font-family: 'Special Elite', cursive;
+}
+
+/* Buttons */
+/* line 13, ../sass/style.scss */
 .btn {
   border-radius: 0;
 }
 
-/* line 13, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .btn-main {
   background: transparent;
   border: 1px solid #33B8FF;
   color: #000;
   transition: all .5s ease;
 }
-/* line 18, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 .btn-main:hover {
   background: #33B8FF;
 }
 
 /* Site Global */
-/* line 23, ../sass/style.scss */
+/* line 27, ../sass/style.scss */
 .site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
-/* line 29, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 .navbar {
   margin-bottom: 0;
   background: #33B8FF;
@@ -40,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
   padding: 10px;
 }
-/* line 37, ../sass/style.scss */
+/* line 41, ../sass/style.scss */
 .navbar .navbar-brand {
   color: #fff;
   -ms-transform: rotate(-4deg);
@@ -50,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   transform: rotate(-4deg);
 }
 
-/* line 45, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-family: 'Special Elite', cursive;
@@ -58,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 }
 
-/* line 52, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .intro {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/ui/intro.jpg");
   background-position: top center;
@@ -69,25 +74,25 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
 }
-/* line 62, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .intro .intro-text {
   width: 50%;
 }
-/* line 64, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .intro .intro-text h1 {
   color: #fff;
   font-family: 'Alex Brush', cursive;
   font-size: 6rem;
   margin-bottom: 10px;
 }
-/* line 70, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .intro .intro-text p {
   color: #ccc;
   text-align: center;
   font-family: 'Tillana', cursive;
   font-size: 2rem;
 }
-/* line 77, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 .intro .intro-text .btn-intro {
   border-radius: 0;
   background: transparent;
@@ -102,14 +107,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 90, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
 /* Main Content */
-/* line 99, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .main-content {
   flex: 1;
   margin-top: 10px;
@@ -117,7 +122,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Articles */
-/* line 106, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .articles {
   overflow: hidden;
   /* just clearing floats */
@@ -129,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 116, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
   padding: 0 5px;
@@ -141,32 +146,32 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin-bottom: 10px;
 }
-/* line 125, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .articles .article-container article {
   box-shadow: 0 0 1px #333 inset;
 }
-/* line 127, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .articles .article-container article .article-text {
   padding: 5px;
 }
-/* line 129, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
   font-family: 'Special Elite', cursive;
   margin-bottom: 6px;
 }
-/* line 133, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .articles .article-container article .article-text p {
   text-align: justify;
   font-family: 'Special Elite', cursive;
 }
-/* line 137, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .articles .article-container article .article-text a {
   display: block;
   margin: auto;
   font-family: 'Special Elite', cursive;
 }
 
-/* line 147, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
   box-shadow: 0 0 2px #333;
@@ -175,34 +180,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main Footer */
-/* line 155, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 160, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
 
 /* Sidebar */
-/* line 166, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .sidebar {
   padding: 0;
   min-height: 100vh;
 }
-/* line 170, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .sidebar section {
   margin-bottom: 25px;
 }
-/* line 172, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
 /* Helper Classes */
-/* line 181, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -212,13 +217,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* line 190, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 195, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Special Elite', cursive;
@@ -226,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 6px;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .top-border {
   border-top: 4px solid #33B8FF;
   padding-top: 6px;
