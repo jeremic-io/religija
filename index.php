@@ -11,6 +11,7 @@
     <title>Religija.net</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 
   </head>
@@ -84,7 +85,7 @@
     </header>
 
     <div class="intro">
-      <div class="intro-text">
+      <div class="intro-text wow zoomIn" data-wow-duration="2s" data-wow-delay="1s">
         <h1 class="text-center">Dobro došli na Religija.net</h1>
         <hr class="hr-line">
         <p>
@@ -311,5 +312,9 @@
     <!-- Javascript -->
     <script src="js/jquery-1.12.4.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
