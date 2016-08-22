@@ -89,7 +89,7 @@
         <h1 class="text-center">Dobro došli na Religija.net</h1>
         <hr class="hr-line">
         <p>
-          Ovde ćete pronaći različite teme iz Biblije, po nama najvažnije knjige na svetu.  Naš jedini vođa je Bog. Ne pripadamo ni jednoj denominaciji, a svaku institucionalizovanu religiju doživljavamo uslovno, ljudskom rukotvorinom. Nismo sekta, već jednostavno Hrišćani. Verujemo da se Božijom Crkvom smatraju oni koji prihvate Hrista kao svog Spasitelja i koji oslanjaju svoju veru isključivo na Svetom Pismu.  Misija ovog sajta je da se Istina približi ljudima i da na odgovarajući način slavimo našeg Gospoda i Spasitelja, Isusa Hrista. Nadamo se da će Vas sadržaj zainteresovati, sva Vaša pitanja i predloge možete nam poslati putem KONTAKTA.
+          Na ovom sajtu pronaći ćete različite teme proučavane u kontekstu Biblije, Božije Reči. Ne pripadamo ni jednoj denominaciji. Naš jedini vođa je Bog. Svaku institucionalizovanu religiju doživljavamo kao ljudsku, a ne Božiju tvorevinu. Mi smo jednostavno ljudi koji veruju u Boga – Hrišćani, nemamo strogu organizaciju, naziv, nametnuta pravila, fondacije. Verujemo da se Božijom Crkvom (narodom) smatraju oni koji prihvate Hrista kao svog Spasitelja i koji zasnivaju svoju veru isključivo na Svetom pismu. Misija ovog sajta je da se Istina približi ljudima i da na odgovarajući način slavimo našeg Gospoda i Spasitelja, Isusa Hrista. Nadamo se da će Vas sadržaj zainteresovati, sva Vaša pitanja i predloge možete nam poslati putem KONTAKTA.
         </p>
         <a href="#" class="btn btn-intro">Pročitaj više</a>
       </div>
