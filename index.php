@@ -173,54 +173,6 @@
                   </div>
                 </article>
               </div>
-              <div class="article-container">
-                <article class="article">
-                  <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
-                  <div class="article-text">
-                    <h2 class="article-h2">O Bogu</h2>
-                    <p>
-                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
-                    </p>
-                    <a href="#" class="btn btn-main">Pročitaj više</a>
-                  </div>
-                </article>
-              </div>
-              <div class="article-container">
-                <article class="article">
-                  <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
-                  <div class="article-text">
-                    <h2 class="article-h2">O Bogu</h2>
-                    <p>
-                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
-                    </p>
-                    <a href="#" class="btn btn-main">Pročitaj više</a>
-                  </div>
-                </article>
-              </div>
-              <div class="article-container">
-                <article class="article">
-                  <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
-                  <div class="article-text">
-                    <h2 class="article-h2">O Bogu</h2>
-                    <p>
-                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
-                    </p>
-                    <a href="#" class="btn btn-main">Pročitaj više</a>
-                  </div>
-                </article>
-              </div>
-              <div class="article-container">
-                <article class="article">
-                  <img src="images/ui/intro.jpg" class="img img-responsive" alt="image">
-                  <div class="article-text">
-                    <h2 class="article-h2">O Bogu</h2>
-                    <p>
-                      Ko je Bog? Kako možemo znati da li Bog sigurno postoji? Može li se postojanje Boga složiti sa naučnim činjenicama i prirodnim zakonima? Kakav je On? Gde su sigurni podaci i izvori o Njemu? Kakve su posledice verovanja ili neverovanja u Njega? Šta znači postojanje Boga za naš lični život?
-                    </p>
-                    <a href="#" class="btn btn-main">Pročitaj više</a>
-                  </div>
-                </article>
-              </div>
             </div>
           </div>
 
@@ -252,7 +204,7 @@
               </div>
               <div class="friend">
                 <a href="http://www.prirodnamedicina.org/">
-                  <img src="images/banners/institut_za_prirodnu_medicinu.png" class="img img-responsive full-width" alt="Institut za prirodnu medicinu">
+                  <img src="images/banners/ipm-baner.gif" class="img img-responsive full-width" alt="Institut za prirodnu medicinu">
                 </a>
               </div>
               <div class="friend">
