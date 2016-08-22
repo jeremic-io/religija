@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
   margin: auto;
   display: block;
   width: 40%;
@@ -102,14 +103,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: all .5s ease;
   padding: 15px;
 }
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .intro .intro-text .btn-intro:hover {
   background: #fff;
   color: #000;
 }
 
 /* Main Content */
-/* line 99, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .main-content {
   flex: 1;
   margin-top: 10px;
@@ -117,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Articles */
-/* line 106, ../sass/style.scss */
+/* line 107, ../sass/style.scss */
 .articles {
   overflow: hidden;
   /* just clearing floats */
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
   padding: 0 5px;
@@ -141,30 +142,30 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin-bottom: 10px;
 }
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .articles .article-container article {
   box-shadow: 0 0 1px #333 inset;
 }
-/* line 127, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .articles .article-container article .article-text {
   padding: 5px;
 }
-/* line 129, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 6px;
 }
-/* line 133, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .articles .article-container article .article-text p {
   text-align: justify;
 }
-/* line 136, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .articles .article-container article .article-text a {
   display: block;
   margin: auto;
 }
 
-/* line 145, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
   box-shadow: 0 0 2px #333;
@@ -173,30 +174,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Main Footer */
-/* line 153, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .main-footer {
   background: #33B8FF;
   color: #fff;
   padding: 15px;
 }
-/* line 158, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .main-footer .copyright {
   font-weight: bold;
 }
 
 /* Sidebar */
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .sidebar {
   padding: 0;
   min-height: 100vh;
 }
-/* line 169, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .sidebar section .book, .sidebar section .friend {
   margin-bottom: 5px;
 }
 
 /* Helper Classes */
-/* line 178, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .hr-line {
   width: 35%;
   color: #fff;
@@ -206,13 +207,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
 }
 
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .full-width {
   width: 100%;
   height: auto;
 }
 
-/* line 192, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
   font-family: 'Roboto', sans-serif;
