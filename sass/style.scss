@@ -114,7 +114,7 @@ h1,h2,h3,h4,h5,h6 {
 
   .article-container {
     box-sizing: border-box;
-    padding: 5px;
+    padding: 1px;
     width: 50%; /* 2 items per row */
     float: left;
     display: -webkit-flex;
@@ -126,7 +126,7 @@ h1,h2,h3,h4,h5,h6 {
       .article-text {
         padding: 5px;
         .article-h2 {
-          font-family: 'Special Elite', cursive;
+          font-family: 'Roboto', sans-serif;
           margin-bottom: 6px;
         }
         p {
@@ -143,7 +143,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .article-preview {
   box-sizing: border-box;
-  box-shadow: 0 0 1px #333 inset;
+  box-shadow: 0 0 2px #333;
   padding: 15px;
   margin-bottom: 5px;
 }

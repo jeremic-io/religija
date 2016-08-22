@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 115, ../sass/style.scss */
 .articles .article-container {
   box-sizing: border-box;
-  padding: 5px;
+  padding: 1px;
   width: 50%;
   /* 2 items per row */
   float: left;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 128, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 6px;
 }
 /* line 132, ../sass/style.scss */
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 144, ../sass/style.scss */
 .article-preview {
   box-sizing: border-box;
-  box-shadow: 0 0 1px #333 inset;
+  box-shadow: 0 0 2px #333;
   padding: 15px;
   margin-bottom: 5px;
 }
