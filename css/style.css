@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 45, ../sass/style.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Special Elite', cursive;
   font-weight: bold;
   padding-left: 0;
 }
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #fff;
   color: #fff;
   font-weight: bold;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Special Elite', cursive;
   margin: auto;
   display: block;
   width: 40%;
@@ -151,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* line 129, ../sass/style.scss */
 .articles .article-container article .article-text .article-h2 {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Special Elite', cursive;
   margin-bottom: 6px;
 }
 /* line 133, ../sass/style.scss */
@@ -215,7 +215,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 192, ../sass/style.scss */
 .section-h2 {
   margin-bottom: 5px;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Special Elite', cursive;
   border-bottom: 4px solid #33B8FF;
   padding-bottom: 6px;
 }
