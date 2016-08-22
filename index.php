@@ -181,7 +181,7 @@
               <h2 class="section-h2 top-border">Knjige</h2>
               <div class="book">
                 <a href="uploads/books/biblija.pdf" target="_blank">
-                  <img src="images/banners/bible.jpg" class="img img-responsive full-width" alt="Biblija">
+                  <img src="images/banners/Biblija-NRP-narudzba.gif" class="img img-responsive full-width" alt="Biblija">
                 </a>
               </div>
               <div class="book">
